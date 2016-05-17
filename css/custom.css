@@ -1,1 +1,21 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
+#mc_embed_signup{
+	background:transparent;
+	clear:left;
+	font:16px;
+	width:100%;
+	color: #ffffff;
+}
+
+.mc-form-input {
+	display: inline-block;
+	height:35px;
+	border-radius: 0;
+	border:0px;
+	width:150px;
+	margin-bottom: 0px;
+}
+
+.btn {
+  background-color: transparent;
+}
