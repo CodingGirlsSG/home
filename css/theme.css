@@ -8,7 +8,7 @@
  4. Colours
  5. Sections
  6. Buttons
- 7. Nav
+ 7. NavF
  8. Tooltips
  9. Alerts
  10. Icons
@@ -43,7 +43,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 24px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666;
@@ -259,7 +259,9 @@ h3,
 h4,
 h5,
 h6,
-p,
+p{
+  font-size: 14px;
+  },
 ul,
 ol,
 pre,
@@ -4209,7 +4211,7 @@ video {
   max-height: 80px;
 }
 .image-xs {
-  max-height: 50px;
+  height: 50px;
 }
 .image-xxs {
   max-height: 30px;
@@ -4286,6 +4288,15 @@ video {
     -webkit-transform: none;
   }
 }
+
+.image-holder {
+  height: 50vw;
+  max-height: 210px;
+  width: 280px;
+  overflow: hidden;
+  padding: 0;
+}
+
 .image-square {
   height: 50vw;
   max-height: 640px;
