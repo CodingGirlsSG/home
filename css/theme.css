@@ -452,6 +452,14 @@ a {
   color: #fff;
   opacity: .9;
 }
+
+.bg-primary-y a {
+  color: #efbc4f;
+}
+.bg-primary-y a:hover {
+  color: #efbc4f;
+  opacity: .9;
+}
 .bg-light a {
   color: #4f81ef;
 }
@@ -552,7 +560,7 @@ ul.lead li {
   background: #fff;
 }
 .bg-dark {
-  background: #292929;
+  background: #4f81ef;
 }
 .color-body {
   color: #666;
@@ -602,8 +610,9 @@ footer.bg-dark h5,
 .bg-dark h6,
 nav.bg-dark h6,
 footer.bg-dark h6,
-.bg-primary h6 {
-  color: #ffffff;
+.bg-primary-y h6 {
+  color: #efbc4f;
+  font-weight: bold;
 }
 .bg-dark p,
 nav.bg-dark p,
@@ -617,7 +626,11 @@ footer.bg-dark span,
 nav.bg-dark li,
 footer.bg-dark li,
 .bg-primary li {
-  color: #fefefe;
+  color: #efbc4f;
+}
+.bg-primary-y li {
+  color: #efbc4f;
+  font-weight: bold;
 }
 @media all and (max-width: 767px) {
   section {
@@ -4229,10 +4242,10 @@ video {
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
-  opacity: .5;
+  opacity: 1;
 }
 .fade-on-hover:hover {
-  opacity: 1;
+  opacity: 0.5;
 }
 .cast-shadow {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
@@ -4869,11 +4882,11 @@ footer.bg-dark a {
 }
 .bg-dark .social-list a,
 .image-bg .social-list a {
-  color: #fff;
-  opacity: .5;
+  color: #efbc4f;
+  opacity: 1;
 }
 .bg-dark .social-list a:hover {
-  opacity: 1;
+  opacity: .5;
 }
 .image-bg .social-list a {
   opacity: 1;
